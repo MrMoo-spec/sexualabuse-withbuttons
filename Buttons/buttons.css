@@ -1,0 +1,157 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.curve {
+  background: #b5ead7;
+  text-align: center;
+}
+
+.curve h1 {
+  font-size: 1.5rem;
+  color: #a4e2dd;
+  font-family: Modern Love;
+}
+
+.curve p {
+  font-size: 1.25rem;
+  font-family: Comfortaa;
+  margin: 0 srem 0 srem;
+  color: black
+}
+
+.curve svg {
+  display: block;
+}
+
+mark {
+  background-color: #c7ceea;
+  color: black;
+}
+
+.img {
+  width: 450px;
+  height: 400px
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  font-size: 1.25rem;
+  margin: 5px;
+  font-family: Comfortaa;
+  background-color: #a4e2dd
+}
+
+#p {
+  font-size: 2.5rem;
+  color: #a4e2dd;
+  font-family: Modern Love;
+  padding-top: 5px
+}
+
+::selection {
+  color: #ddd;
+  background-color: black
+}
+
+.column {
+  float: left;
+  width: 300px;
+  margin: 10px;
+  height: 150px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.row p {
+  font-size: 1.25rem;
+  font-family: Comfortaa;
+  margin: 0 srem 0 srem;
+  color: black
+}
+
+.row h2 {
+  font-family: Comfortaa;
+}
+
+.row {
+  margin: auto;
+}
+
+.collapsible {
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:hover {
+  background-color: #ddd;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+.content p {
+  font-family: Comfortaa
+}
+
+.collapsible:after {
+  content: '\02795';
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+
+}
+
+button {
+  background-color: #c7ceea;
+  font-family: Comfortaa;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('030608.ttf')
+}
+
+@font-face {
+  font-family: 'Modern Love';
+  src: url('Modern\ Love.ttf')
+}
+
+@font-face {
+  font-family: 'Chilla';
+  src: url('Chiller.ttf')
+}
+
+@font-face {
+  font-family: 'Sue Ellen';
+  src: url('SEF.ttf')
+}

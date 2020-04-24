@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sexual Abuse- The Good Touch</title>
+  <link rel="stylesheet" href="buttons.css">
+  <link rel="icon" href="Screenshot 2020-03-06 at 6.26.18 PM.png">
+</head>
+
+<body link="black">
+
+  <div style="text-align: center" class="diva">
+    <ul id="ul" style="font-size: 17px; font-family: Comfortaa; margin-left: 2rem; color: black">
+      <li><a style="text-decoration: none" href="index.html"><b>Introduction</b></a></li>
+      <li><a style="text-decoration: none" href="goodbuttons.html"><b>The Good Touch</b></a></li>
+      <li><a style="text-decoration: none" href="badbuttons.html"><b>The Bad Touch</b></a></li>
+      <li><a style="text-decoration: none" href="vidbuttons.html"><b>A Video By Buttons</b></a></li>
+      <li><a style="text-decoration: none" href="creditbuttons.html"><b>Credits</b></a></li>
+    </ul>
+  </div>
+
+  <div class="curve" style=" color: #a4e2dd">
+    <p id="p">
+      <mark>The 'Good Touch'</mark></p>
+
+    <p><b>The <span style="font-family: Sue Ellen;"> GOOD TOUCH</span> is a touch that makes one feel good, or has no
+        impact on one's emotions. <br> Basically, a good touch is a touch you have no problem with- like a high-five
+        from a friend, a hug from your parents, <br>or a handshake from a teacher. However, this doesn't mean that you
+        don't feel uncomfortable by doing this. As long as you are okay with it, it's fine</b></p>
+
+    <p style="color: #a4e2dd">hola, humans</p>
+  </div>
+
+  <div style="margin-bottom: 15px">
+    <button type="button" class="collapsible" style="font-family: Comfortaa; font-size: 17px"><b>ExaMples of a 'Good
+        Touch'</b></button>
+    <div class="content" style="background-color: #c7ceea;">
+      <p style="font-size: 1.2rem">Remember, none of these <i>have</i> to be good touches, but normally, they are just
+        casual. Examples: <br>‣ A hug<br>‣ A handshake<br>‣ A high-five<br>‣ Your Secret Handclap ;)</p>
+    </div>
+  </div>
+
+  <button type="button" class="collapsible" style="font-family: Comfortaa; font-size: 17px"><b>What qualifies as a 'Good
+      Touch'?</b> </button>
+  <div class="content" style="background-color: #a4e2dd">
+    <p style="font-size: 1.2rem">Technically, anybody can touch you in a good way, but there are a couple people who
+      definitely mean no harm.</p>
+    <p style="font-size: 1.2rem">‣ Your mother <br>‣ Your father <br>‣ Your brother/sister <br>‣ A friend (rarely)</p>
+  </div>
+
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
+
+</body>
+
+</html>
